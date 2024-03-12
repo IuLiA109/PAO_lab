@@ -19,8 +19,9 @@ public class SmarterCalculator {
                 case "Double":
                     results.add(new DoubleCalculatorResult(calc));
                     break;
-                //default:
-                    //throw new IllegalArgumentException("Invalid request type");
+                default:
+                    System.out.println("Type not found!");
+                    break;
             }
         }
 

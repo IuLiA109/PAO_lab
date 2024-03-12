@@ -7,9 +7,9 @@ public class BooleanCalculatorResult extends CalculatorResult {
 
     @Override
     public Object computeResult() {
-        boolean leftOperand = (boolean) calculatorRequest.getLeftOperand();
-        boolean rightOperand = (boolean) calculatorRequest.getRightOperand();
-        String operation = calculatorRequest.getOperation();
+        boolean leftOperand = (boolean) super.getRequest().getLeftOperand();
+        boolean rightOperand = (boolean) super.getRequest().getRightOperand();
+        String operation = super.getRequest().getOperation();
 
         switch (operation) {
             case "&&":
@@ -17,6 +17,7 @@ public class BooleanCalculatorResult extends CalculatorResult {
             case "||":
                 return leftOperand || rightOperand;
             default:
+                System.out.println("Wrong operation");
                 return null;
         }
     }

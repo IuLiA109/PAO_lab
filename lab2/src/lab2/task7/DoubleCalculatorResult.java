@@ -6,9 +6,9 @@ public class DoubleCalculatorResult extends CalculatorResult{
     }
     @Override
     public Object computeResult(){
-        double leftOperand = ((Number) calculatorRequest.getLeftOperand()).doubleValue();
-        double rightOperand = ((Number) calculatorRequest.getRightOperand()).doubleValue();
-        String operation = calculatorRequest.getOperation();
+        double leftOperand = ((Number) super.getRequest().getLeftOperand()).doubleValue();
+        double rightOperand = ((Number) super.getRequest().getRightOperand()).doubleValue();
+        String operation = super.getRequest().getOperation();
 
         switch (operation) {
             case "+":
@@ -24,6 +24,7 @@ public class DoubleCalculatorResult extends CalculatorResult{
                 }
                 return leftOperand / rightOperand;
             default:
+                System.out.println("Wrong operation");
                 return null;
         }
     }

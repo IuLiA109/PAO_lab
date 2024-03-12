@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Aria patratului este: " + aria4);
         */
 
-        String[] inputArgs = {"1", "+", "2", "2", "*", "5", "1.0", "+", "5.0", "1.0", "-", "2.0", "10.0", "/", "1" , "true", "||", "false", "1", "+", "0.0"};
+        String[] inputArgs = {"1", "+", "2", "2", "*", "5", "1.0", "+", "5.0", "1.0", "-", "2.0", "10.0", "/", "1" , "true", "||", "false"};
 
         List<CalculatorResult> calculationResults = SmarterCalculator.calculate(inputArgs);
 
