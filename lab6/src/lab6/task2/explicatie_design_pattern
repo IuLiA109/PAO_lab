@@ -1,0 +1,5 @@
+Explicatie:
+
+Am ales design pattern-ul Observer pentru ca este asemanator conceptului de "publicant
+și ascultator". Patternul permite adaugarea si eliminarea usoara a elementelor (topicuri
+si useri) fara a afecta alte parti ale codului.

@@ -1,0 +1,5 @@
+Explicatie:
+
+    Am ales design pattern-ul Command pentru a putea izola actiunile de plata in clase
+separate. In plus, folosind acest pattern am incapsulat datele intr-un singur obiect,
+astfel facand mai usoara functia de managemant a tranzactiilor.

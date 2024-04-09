@@ -1,0 +1,5 @@
+Explicatie:
+
+Am ales design pattern-ul Strategy pentru ca a trebuit sa creez functii asemanatoare
+dar in moduri diferite. Acest pattern imi permite sa definesc mai multi algoritmi de
+sortare si sa ii schimb in timpul rularii in functie de necesitate.
