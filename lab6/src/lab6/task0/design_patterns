@@ -1,0 +1,4 @@
+
+Design pattern-ul Strategy:
+- folosit pentru partea de functii calculation result (boolean, double, integer, abstract)
+
