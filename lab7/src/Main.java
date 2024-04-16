@@ -118,7 +118,7 @@ public class Main {
                 nr -> nr + 1,
                 nr -> 1 / nr,
                 nr -> nr * nr,
-                nr -> (int) Math.sin(nr)
+                nr -> Math.round(Math.sin(Math.toRadians(nr)) * 100.0) / 100.05
         );
 
         numere.forEach(number -> {
