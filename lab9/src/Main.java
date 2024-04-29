@@ -18,7 +18,6 @@ public class Main {
         set1.add(4);
         set1.add(3);
 
-        //!!!!!!!!!!!!!!!!!!!! nu sorteaza
         System.out.println("Set1 (ordine naturala): " + set1);
 
         System.out.println(set1.first());
