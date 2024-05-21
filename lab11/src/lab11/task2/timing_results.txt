@@ -1,0 +1,24 @@
+Size: 10
+Sequential: 0.6166 ms
+Thread: 2.46 ms
+parallelStream: 3.6547 ms
+CompletableFuture: 12.5926 ms
+
+Size: 1000
+Sequential: 0.6484 ms
+Thread: 2.3984 ms
+parallelStream: 0.7562 ms
+CompletableFuture: 7.6123 ms
+
+Size: 10000
+Sequential: 0.3301 ms
+Thread: 3.0741 ms
+parallelStream: 0.9486 ms
+CompletableFuture: 7.9638 ms
+
+Size: 10000000
+Sequential: 0.3354 ms
+Thread: 3.2311 ms
+parallelStream: 0.58 ms
+CompletableFuture: 8.1313 ms
+
